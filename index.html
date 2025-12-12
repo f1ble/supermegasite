@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleHub — Магазин модной одежды</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <span>StyleHub</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#hero">Главная</a></li>
+          <li><a href="#catalog">Каталог</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Новая коллекция 2025</h1>
+      <p>Минимализм, комфорт и трендовые силуэты — только у нас.</p>
+      <a href="#catalog" class="btn">Смотреть коллекцию</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2>Категории</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <h3>Мужское</h3>
+        </div>
+        <div class="category-card">
+          <h3>Женское</h3>
+        </div>
+        <div class="category-card">
+          <h3>Аксессуары</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalog -->
+  <section id="catalog" class="catalog">
+    <div class="container">
+      <h2>Популярные товары</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://placehold.co/300x400/000000/white?text=Куртка" alt="Куртка">
+          <div class="product-info">
+            <h3>Кожаная куртка</h3>
+            <span class="price">8 990 ₽</span>
+            <button class="btn btn-sm">В корзину</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://placehold.co/300x400/2c3e50/white?text=Джинсы" alt="Джинсы">
+          <div class="product-info">
+            <h3>Скинни джинсы</h3>
+            <span class="price">4 500 ₽</span>
+            <button class="btn btn-sm">В корзину</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://placehold.co/300x400/8e44ad/white?text=Платье" alt="Платье">
+          <div class="product-info">
+            <h3>Вечернее платье</h3>
+            <span class="price">12 000 ₽</span>
+            <button class="btn btn-sm">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="container">
+      <div class="feature">
+        <h3>🚚 Бесплатная доставка</h3>
+        <p>При заказе от 5 000 ₽</p>
+      </div>
+      <div class="feature">
+        <h3>↩️ Возврат 30 дней</h3>
+        <p>Без вопросов</p>
+      </div>
+      <div class="feature">
+        <h3>✅ Оригиналы</h3>
+        <p>100% брендовая одежда</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="subscribe">
+    <div class="container">
+      <h2>Подпишись на новинки</h2>
+      <form id="subscribe-form">
+        <input type="email" placeholder="Твой email" required>
+        <button type="submit" class="btn">Подписаться</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 StyleHub. Все права защищены.</p>
+      <p>📍 Москва, ул. Модная, 10</p>
+      <p>📞 +7 (495) 123-45-67</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
